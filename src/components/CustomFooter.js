@@ -9,27 +9,19 @@ export default function CustomFooter() {
         <div className="my-footer">
             <Card style={{ width: '100%', backgroundColor: "rgb(54,72,129)", color: "white" }} >
                 <Card.Body>
-                <div className="footer-image-container">
-                <Card.Img variant="bottom" src={footballImage} style={{ width: "5rem", height: "5rem" }} />
-                <Card.Text > <h2>SportsLive</h2>  </Card.Text>
+                    <div className="footer-image-container">
+                        <Card.Img variant="bottom" src={footballImage} style={{ width: "5rem", height: "5rem" }} />
+                        <Card.Text > <h2>SportsLive</h2>  </Card.Text>
 
-                </div>
+                    </div>
 
 
                     <div className="footer">
                         <div className="copy-rights">
-                        <Card.Text > <p>Copy Rights Reserved</p>  </Card.Text>
+                            <Card.Text > <p>Copy Rights Reserved</p>  </Card.Text>
 
                         </div>
-                        {/* <div className="links" styles={{ color: "white" }}> */}
-                            {/* <Card.Link href="#" > <p>Career </p>  </Card.Link>
-                            <Card.Link href="#"> <p>Contact Us </p></Card.Link>
-                            <Card.Link href="#"><p>Privacy Policy </p></Card.Link>
-                            <Card.Link href="#"> <p>Terms and Conditions </p></Card.Link> */}
-                        {/* </div> */}
                     </div>
-
-
                 </Card.Body>
             </Card>
 
